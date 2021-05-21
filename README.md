@@ -1,2 +1,2 @@
 # LeckerSchmecker
- Erste WebApp
+ Erster WebApp
