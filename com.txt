@@ -1,0 +1,84 @@
+<!<!DOCTYPE html>
+
+<html dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title> Online Rezeptbuch </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+
+  <body>
+    <!-- nav tab = unserem menu -->
+    <nav>
+      <div class="wrapper">
+        <ul>
+          <div class="logo"></div>
+          <li><a href="index.html"> Home </a></li>
+          <li><a href="#"> Über Uns </a></li>
+          <li><a href="#"> Kontaktiere Uns </a></li>
+        </ul>
+      </div>
+    </nav>
+      <div class="wrapper">
+        <h1> Home Page </h1>
+      </div>
+
+  </body>
+</html>
+
+
+/* default browser margin und padding auf 0 setzen
+alle text deco die auf die seite kommen werden, sollen kein unterlinie haben*/
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body{
+  background-color: #eee;
+}
+.wrapper{
+  width: 100%;
+}
+
+.logo{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-image: url(img/lecker.jpg);
+  background-size: contain;
+  float: left;
+}
+.logo:hover{
+
+}
+
+nav{
+  width: 100%;
+  height: 100px;
+  background: -webkit-linear-gradient(left, rgba(80,128,117,0.349),rgba(7,114,78,0.521));
+}
+/**/
+ul{
+  margin-left: 70px;
+}
+ul li{
+  list-style: none;
+  display: inline-block;
+  float:left;
+  line-height: 100px;
+}
+ul li a{
+  display: block; /* click überall*/
+  font-size: 14px;
+  font-family: arial;
+  color: #1e1e1e;
+  padding: 0 20px; /* leer zwischen die listelemente*/
+}
+ul li a:hover{
+  color: red;
+}
