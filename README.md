@@ -1,2 +1,2 @@
 # LeckerSchmecker
- Erster WebApp
+ Erster WebApp, Ohne Erfahrung und Vorkentnisse
